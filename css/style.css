@@ -110,12 +110,14 @@ body{
 .newsletter__input {
   display: inline-block;
   padding: .5em;
+  border: 0;
 }
 .newsletter__btn {
   display: inline-block;
   text-decoration: none;
   color: #ccc;
   padding: .5em;
+  border: 0;
 
 }
 .social-links {
@@ -150,12 +152,16 @@ body{
   display: block;
 }
 
+
+
+
 .contact__icon {
   display: inline-block;
 }
 .contact__text {
   display: inline-block;
   white-space: initial;
+  line-height: 2em;
 }
 
 .contact__row {
@@ -166,6 +172,34 @@ body{
 .contact__title {
   display: table;
   margin: 1em 1em;
-  padding: 0 14em 1em 0;
+  padding: 0.5em 0 1em 0;
   border-bottom: 5px solid hsla(198, 100%, 35%, 0.9);
+}
+
+
+.contact_form__title{
+  display: table;
+  border-bottom: 5px solid hsla(198, 100%, 35%, 0.9);
+  margin: 1.5em auto;
+  padding: 0.5em 0 1em 0;
+
+}
+
+.contact__input {
+  display: block;
+  margin: 0.4em 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  padding: 1em;
+}
+
+.contact__btn{
+  display: block;
+  margin: 0.2em 1em;
+  border: 0;
+  width: 90%;
+  color: #fff;
+  background: hsla(198, 100%, 35%, 0.9);
+  padding: 1em 4em;
+  
 }
