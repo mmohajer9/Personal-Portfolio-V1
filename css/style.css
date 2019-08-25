@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+body{
+  font-family: 'Livvic', sans-serif , cursive;
+}
+
+.inner-container{
+  width: 90%;
+  max-width: 1200px;
+  /* border: 5px solid #1b1b1b; */
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.top-header{
+  padding: 1em 0;
+  background-color: white;
+}
+
+
+.logo{
+  margin: 0;
+}
+
+.logo__image{
+  display: block;
+  width: 3em;
+}
+
+.banner{
+  
+  background: url(../images/banner-5.jpg) no-repeat top center/cover #1b1b1b;
+  color: #fff;
+  text-align: center;
+  padding: 5em 0;
+}
+
+.banner__title {
+  font-size: 3em;
+  margin: 0 0 .2em;
+}
+
+.banner__tagline {
+  margin: 0 0 2em;
+}
+
+.banner_date {
+  display: block;
+}
+
+.banner__btn {
+  display: table;
+  text-decoration: none;
+  color: #fff;
+  background: hsla(198, 100%, 35%, 0.9);
+  padding: 1em 4em;
+  margin: 2em auto;
+}
+
+.banner__time {
+  font-size: 3em;
+  vertical-align: middle;
+  margin-left: .1em;
+}
+
+
+
+
+.map {
+  width: 100%;
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #1b1b1b;
+  text-align: center;
+  color: #fff;
+  padding: 1em 0;
+}
+
+.footer__title {
+
+}
+.footer__tagline {
+
+}
+.newsletter {
+  border: 2px solid #ccc;
+  display: table;
+  margin: 0 auto;
+  
+}
+.newsletter__input {
+  display: inline-block;
+  padding: .5em;
+}
+.newsletter__btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #ccc;
+  padding: .5em;
+
+}
+.social-links {
+  padding: 0;
+  margin: 1em 0;
+  
+}
+
+.social-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social-link {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: #ccc;
+  padding: 0.5em;
+  opacity: 0.5;
+  transition: .3s opacity;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.copyright {
+
+}
+
+.contact {
+  display: block;
+}
+
+.contact__icon {
+  display: inline-block;
+}
+.contact__text {
+  display: inline-block;
+  white-space: initial;
+}
+
+.contact__row {
+  margin: 1em 0;
+  white-space: nowrap;
+}
+
+.contact__title {
+  display: table;
+  margin: 1em 1em;
+  padding: 0 14em 1em 0;
+  border-bottom: 5px solid hsla(198, 100%, 35%, 0.9);
+}
