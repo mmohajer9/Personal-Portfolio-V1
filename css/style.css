@@ -67,6 +67,13 @@ body{
   background: hsla(198, 100%, 35%, 0.9);
   padding: 1em 4em;
   margin: 2em auto;
+  border-radius: 2%;
+  transition: .5s all;
+}
+
+.banner__btn:hover{
+  font-size: 1.5em;
+  background: hsla(198, 100%, 45%, 1);
 }
 
 .banner__time {
@@ -81,6 +88,86 @@ body{
 .map {
   width: 100%;
 }
+
+
+
+
+.project{
+  position: relative;
+  overflow: hidden;
+  width: 20em;
+  margin: 2em auto;
+}
+.project__image{
+  display: block;
+  width: 100%;
+}
+
+.project__caption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: .5em 1em;
+  background-color: hsla(0, 0%, 0%, .5);
+  color: #fff;
+  transform: translate3d(0,100%,0);
+  transition: transform .3s ease-in-out;
+}
+
+
+.project:hover .project__caption{
+  transform: translate3d(0,0%,0);
+}
+
+.project__name{
+  margin: 0;
+}
+.project__description{
+  font-size: .8em;
+}
+.project__menu{
+  opacity: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: opacity .3s ease;
+}
+
+.project:hover .project__menu{
+  opacity: 1;
+}
+
+.project__menu li {
+  display: inline-block;
+}
+
+
+
+
+.project__action{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: .5em;
+}
+
+
+
+.project__action--blue{
+  background-color: hsla(200, 100%, 35%, 1);
+  margin: 0 -6px;
+}
+
+
+.project__action--gray{
+  background-color: gray;
+}
+
 
 
 
@@ -194,6 +281,8 @@ body{
 }
 
 .contact__btn{
+
+  
   display: block;
   margin: 0.2em 1em;
   border: 0;
@@ -201,5 +290,12 @@ body{
   color: #fff;
   background: hsla(198, 100%, 35%, 0.9);
   padding: 1em 4em;
+  transition: .2s;
   
+  
+}
+
+.contact__btn:hover{
+  cursor: pointer;
+  background: hsla(198, 100%, 45%, 1);
 }
