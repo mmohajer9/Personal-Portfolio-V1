@@ -91,6 +91,29 @@ body{
 
 
 
+.section__tagline{
+  text-align: center;
+  font-size: .9em;
+}
+
+.section__title{
+  text-align: center;
+  position: relative;
+}
+
+
+.section__title::after{
+  position: absolute;
+  display: block;
+  content: ' ';
+  width: 4em;
+  height: 5px;
+  top: 120%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: hsla(200, 100%, 35%, 1);
+}
 
 .project{
   position: relative;
