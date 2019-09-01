@@ -105,7 +105,7 @@ body{
 .section__title::after{
   position: absolute;
   display: block;
-  content: ' ';
+  content: ' '; /*INO HATMAN BEZAR TA BEFAHME KE AFTER GOZASHTI TOYE CONTENT SPACE BEZAR*/
   width: 4em;
   height: 5px;
   top: 120%;
@@ -205,12 +205,12 @@ body{
   padding: 1em 0;
 }
 
-.footer__title {
+/* .footer__title {
 
-}
-.footer__tagline {
+} */
+/* .footer__tagline {
 
-}
+} */
 .newsletter {
   border: 2px solid #ccc;
   display: table;
@@ -254,9 +254,9 @@ body{
   opacity: 1;
 }
 
-.copyright {
+/* .copyright {
 
-}
+} */
 
 .contact {
   display: block;
@@ -275,13 +275,13 @@ body{
 }
 
 .contact__row {
-  margin: 1em 0;
+  margin: 1em 1em;
   white-space: nowrap;
 }
 
 .contact__title {
   display: table;
-  margin: 1em 1em;
+  margin: 1em 2em;
   padding: 0.5em 0 1em 0;
   border-bottom: 5px solid hsla(198, 100%, 35%, 0.9);
 }
@@ -321,4 +321,110 @@ body{
 .contact__btn:hover{
   cursor: pointer;
   background: hsla(198, 100%, 45%, 1);
+}
+
+
+.works {
+  padding-bottom: 2em;
+
+}
+.works__title {
+  margin: 0em 2em;
+  padding: 1em 0;
+}
+.works__text {
+  margin: 1em 3em;
+  color: #838282;
+}
+
+
+.quote {
+
+  overflow: hidden;
+  text-align: center;
+  padding: 1em 0;
+  background: url(../images/banner-16.png) no-repeat top center/cover hsla(198, 100%, 45%, 1);
+  color: #fff;
+  background-blend-mode: multiply;
+
+}
+.quote__title {
+  margin: 1em 0 2em 0;
+  position: relative;
+}
+
+.quote__title::after {
+  position: absolute;
+  display: block;
+  content: ' '; /*INO HATMAN BEZAR TA BEFAHME KE AFTER GOZASHTI TOYE CONTENT SPACE BEZAR*/
+  width: 4em;
+  height: 5px;
+  top: 160%;
+  left: 0;
+  right: 0;
+  margin: .1em auto;
+  background-color: white;
+}
+
+.quote__figure {
+  margin: 3em 0;
+}
+.quote__image {
+  display: block;
+  margin: 2em auto;
+  width: 20%;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.quote__desc {
+  margin: 0;
+}
+.quote__owner {
+  margin: 2em 0 2em 0;
+
+}
+.quote__text {
+  margin: 0 5em 2em 5em;
+  line-height: 2em;
+}
+
+.quote__btn {
+  
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 0 .4em;
+  color: white;
+  background: transparent;
+  text-decoration: none;
+  border: 0;
+
+}
+
+
+
+.quote__paginator {
+
+  border: 1px solid white;
+  display: inline-block;
+}
+
+.text__wrapper {
+  position: relative;
+}
+
+.quote__icon {
+  font-size: 1.5em;
+}
+
+.quote__left {
+  position: absolute;
+  bottom: 120%;
+  left: 7%;
+  
+}
+
+.quote__right {
+  position: absolute;
+  right: 7%;
+  top: 120%;
 }
