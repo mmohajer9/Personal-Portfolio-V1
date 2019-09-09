@@ -3,6 +3,7 @@
 <head>
   <title>Mohammad Mahdi Mohajer</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
   <meta name="description" content="Mohammad Mahdi Mohajer Personal Portfolio Website">
   <link href="css/normalize.css" rel="stylesheet">  
   <link href="css/style.css" rel="stylesheet">
@@ -21,11 +22,20 @@
       <div class="top-header">
 
         <!-- inner container vazife negah dashtan mohtava ro dare ! -->
-        <div class="inner-container">
-          <h1 class="logo">
-            <img class="logo__image" src="images/logo.jpg" alt="Mohammad Mahdi Mohajer">
-          </h1>
-        </div>
+        
+          <nav class="navbar">
+            <ul class="navbar__flex-container">
+              <!-- <li class="navbar__flex-item logo"></li> -->
+              
+              <li class="navbar__flex-item navbar__flex-item--Home fas fa-home"></li>
+              <li class="navbar__flex-item navbar__flex-item--Service fas fa-server"></li>
+              <li class="navbar__flex-item navbar__flex-item--Projects fas fa-project-diagram"></li>
+
+              <li class="navbar__flex-item navbar__flex-item--Clients fas fa-user-friends"></li>
+              <li class="navbar__flex-item navbar__flex-item--Contact fas fa-address-card"></li>
+            </ul>
+          </nav>
+        
 
       </div>
       <!-- /Top Header -->
@@ -36,7 +46,7 @@
         <h2 class="banner__title">Mohammad Mahdi Mohajer</h2>
         <p class="banner__tagline">Personal Portfolio and CV</p>
         <time class="banner_date">21 Dec 2019 <span class="banner__time">12:00</span></time>
-        <a href="#" class="banner__btn">Contact Us</a>
+        <a href="#contact-us" class="banner__btn">Contact Us</a>
       </div>
       <!-- /Banner -->
 
@@ -93,7 +103,7 @@
       
       
 
-      <section class="contact">
+      <section id="contact-us" class="contact">
 
         <div class="inner-container">
           
