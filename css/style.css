@@ -29,6 +29,48 @@ body{
   background-color: #1b1b1b;
 }
 
+
+.aboutme {
+  display: flex;
+  padding: 3em 0 2em 2em;
+  background-color: hsla(200, 100%, 35%, 1);
+  color: white;
+  flex-flow: row nowrap;
+  
+}
+.aboutme__title {
+  width: 100%;
+  flex-grow: 1;
+  align-self: center;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.aboutme__title__text {
+  flex-grow: 1;
+  font-size: 2em;
+}
+.aboutme__text {
+  margin: 1em 2em 0 2em;
+  line-height: 2em;
+  flex-grow: 3;
+}
+
+.aboutme__pic {
+  
+  flex-grow: 1;
+  display: block;
+  width: 50%;
+  align-self: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-bottom: 4em;
+  
+}
+
 /* navbar creation */
 
 
@@ -42,6 +84,7 @@ body{
   padding : 0;
   background: #1b1b1b;
   flex-flow: row wrap;
+  align-items: stretch;
   
 
 }
@@ -151,6 +194,15 @@ body{
   background-color: hsla(200, 100%, 35%, 1);
 }
 
+.projects-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.projects {
+  flex-grow: 1;
+}
+
 .project{
   position: relative;
   overflow: hidden;
@@ -160,6 +212,8 @@ body{
 .project__image{
   display: block;
   width: 100%;
+  height: 15em;
+  
 }
 
 .project__caption{
@@ -361,7 +415,9 @@ body{
 
 
 .works {
-  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background: #e0e0e0;
 
 }
 .works__title {
