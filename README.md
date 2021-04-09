@@ -1,4 +1,4 @@
-## personal-portfolio-html5-css3-responsive
+# Personal Portfolio - v1.0.0
 My Personal Portfolio Featuring Responive Design without any bootstrap or etc. frameworks
 
 
